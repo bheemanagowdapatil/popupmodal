@@ -1,0 +1,68 @@
+.modalBackground{
+  
+height: 100vh;
+position: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modalContainer{
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 8px -4px #000000; 
+box-shadow: 0px 0px 8px -4px #000000;
+width: 500px;
+height: 500px;
+position: absolute;
+top:0%;
+margin-left: 50%;
+align-items: center;
+transform: translate(153%,20px);
+
+}
+.close{
+    display: flex;
+    margin-left: auto;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right:10px;
+  margin-top: 10px;
+  background-color: white;
+  color: #000000;
+  border: none;
+  font-size: 25px;
+}
+.titleCloseBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.titleCloseBtn button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.body{
+    flex:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+    margin:20px;
+
+}
+.footer button{
+    width: 150px;
+    height: 45px;
+    margin:10px;
+    border: none;
+    background-color: cornflowerblue;
+    color:white;
+    border-radius:8px;
+    font-size:20px;
+    cursor : pointer;
+    
+}
+#cancelBtn{
+    background-color: red;
+}
